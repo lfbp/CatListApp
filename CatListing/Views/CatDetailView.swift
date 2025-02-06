@@ -54,7 +54,7 @@ struct CatDetailView: View {
                 
                 VStack(alignment: .leading, spacing: 10) {
                     Text(cat.name ?? defaultName)
-                        .font(.largeTitle)
+                        .font(.title)
                         .bold()
                     
                     DetailRow(label: "Temperament", value: cat.temperament ?? defaultTemperament)
@@ -72,6 +72,7 @@ struct CatDetailView: View {
                 
                 Spacer()
             }
+            .navigationTitle("Cat Details")
         }
         .padding()
     }
