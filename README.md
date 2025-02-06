@@ -12,22 +12,16 @@ A simple SwiftUI app that **lists cat breeds** and lets you tap on a breed to se
 
 ---
 
-## 📱 Screenshots  
-| 🏠 List View  | 📄 Detail View |
-|--------------|--------------|
-| ![ListView](https://via.placeholder.com/300) | ![DetailView](https://via.placeholder.com/300) |
-
----
 
 ## 🛠 Installation & Running  
 ### **1️⃣ Clone the Repository**  
 ```sh
-git clone https://github.com/yourusername/CatBreedsApp.git
-cd CatBreedsApp
+git https://github.com/lfbp/CatListApp.git
+cd CatListApp
 ```
 
 ### **2️⃣ Open in Xcode**  
-- Open `CatBreedsApp.xcodeproj` in **Xcode 15**  
+- Open `CatListApp.xcodeproj` in **Xcode 15**  
 - Ensure **iOS 17** is selected as the deployment target  
 
 ### **3️⃣ Run the App**  
@@ -60,14 +54,3 @@ Or run tests via **Xcode’s Test Navigator (`⌘ + 6`)** and clicking **▶️ 
 This project is open-source and available under the **MIT License**.  
 
 ---
-
-## ❤️ Contributions  
-Pull requests are welcome! For major changes, please open an issue first to discuss your ideas.  
-
-📩 **Contact:** [your.email@example.com](mailto:your.email@example.com)  
-```
-
----
-
-### **🚀 Next Steps?**
-Would you like me to **add badges** (e.g., Swift version, platform support), **GIF previews**, or **a contribution guide**? 😺🔥
