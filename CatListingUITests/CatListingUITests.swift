@@ -27,7 +27,8 @@ final class CatAppUITests: XCTestCase {
         app.swipeUp()
         app.swipeUp()
         let newCount = app.cells.count
-        print(newCount > firstCount)
+        print(newCount)
+        print(firstCount)
         XCTAssert(newCount > firstCount)
     }
 
