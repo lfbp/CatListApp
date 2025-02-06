@@ -1,14 +1,3 @@
-
-
-### 📜 **How to Use**  
-1️⃣ Copy the content below  
-2️⃣ Create a file named **`README.md`** in your project root  
-3️⃣ Paste the content and save  
-
----
-
-### 📄 **README.md**  
-```md
 # 🐱 Cat Breeds App
 
 A simple SwiftUI app that **lists cat breeds** and lets you tap on a breed to see **detailed information**. Built with **Xcode 15** and designed for **iOS 17**.
