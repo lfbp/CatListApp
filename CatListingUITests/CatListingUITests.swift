@@ -35,7 +35,7 @@ final class CatAppUITests: XCTestCase {
 
     func testNavigateToCatDetailView() {
         let firstCell = app.cells.firstMatch
-        XCTAssertTrue(firstCell.exists, "❌ First cat cell not found")
+        XCTAssertTrue(firstCell.waitForExistence(timeout: 5), "❌ First cat cell not found")
 
         firstCell.tap() 
 
